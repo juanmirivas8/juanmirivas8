@@ -2,7 +2,7 @@
 
 ---
 
-## Intereses e Informaciñon personal
+## Intereses e Informacion personal
 
 - 🔭 Estudiante de Desarrollo de Aplicaciones Multiplataforma 
 - 🌱 Experiencia universitaria y ganas de aprender nuevas tecnologías🤣
