@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%PAQUETES%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc} %Codificación
+\usepackage[spanish]{babel} %Idioma español
+\usepackage[right=2cm,left=2cm,top=2cm,bottom=2cm]{geometry} %Control de márgenes
+\usepackage{hyperref}%Introducir enlaces
+\usepackage{fancyhdr}%Encabezados y pie de página
+\usepackage{listing}%Inserción de código
+\usepackage{color}%Uso de colores
+\usepackage[export]{adjustbox}%Uso de imágenes
+\usepackage{graphicx}%Uso de imagenes
+\usepackage{float}
+%%%%%%%%%%%%%%%%%%%%%%COMANDOS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{fancy}%Estilo de pie página y encabezados
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{Asignatura}
+\fancyhead[R]{Juan Miguel Rivas Velasco}
+\fancyfoot[L]{IES Francisco de los Ríos}
+\fancyfoot[R]{1º CSFP DAM}
+
+%%%%%%%%%%%%%%%%%%%%Definición de colores%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{prussianblue}{rgb}{0.0, 0.19, 0.33}
+%%%%%%%%%%%%%%%%%%%%%DOCUMENTO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%PORTADA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \thispagestyle{empty}
+
+    \begin{figure}
+        
+        \noindent%
+        \raggedleft
+        \includegraphics[width=0.13\textwidth,fbox]{logo.png}%
+        \begin{minipage}[b]{0.7\textwidth}
+            \centering
+            IES Francisco de Los Ríos \\
+            1º CSFP Desarrollo Aplicaciones Multiplataforma\\
+           \textcolor{cyan}{\textbf{Asignatura: }}ASIGNATURA\\
+           \textcolor{cyan}{\textbf{Profesor: }}PROFESOR\\
+           \textcolor{cyan}{\textbf{Estudiante: }}Juan Miguel Rivas Velasco
+        \end{minipage}%
+        \raggedright
+        \includegraphics[width=0.13\textwidth,fbox]{foto.png}
+        \textcolor{blue}{\rule{17cm}{0.5mm}}
+    \end{figure}
+    
+    \centering
+    \textcolor{prussianblue}{\LARGE{\textbf{Titulo de la tarea}}}
+    \textcolor{blue}{\rule{17cm}{0.5mm}}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  
+
+
+
+\end{document}
