@@ -4,7 +4,7 @@
 
 ## Intereses e Informacion personal
 
-- 🔭 Estudiante de Desarrollo de Aplicaciones Multiplataforma 
+- 🔭 Desarrollador de Aplicaciones Multiplataforma (Back-end (.NET , JAVA, KOTLIN) + Front-end (Angular) )
 - 🌱 Experiencia universitaria y ganas de aprender nuevas tecnologías🤣
 - 👯 Alto nivel de inglés (C1 Cambridge), tanto escrito como oral.
 - 🥅 Amante de los deportes y el aire libre (senderismo, ciclismo, pádel, tenis de mesa, baloncesto, etc)
